@@ -47,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.blue,
-                      Colors.red,
+                      Colors.green,
+                      Color.fromARGB(179, 203, 232, 72),
                     ],
                   ),
                 ),
@@ -74,8 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.blue,
-                      Colors.red,
+                      Colors.green,
+                      Color.fromARGB(179, 203, 232, 72),
                     ],
                   ),
                 ),
@@ -101,8 +101,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.blue,
-                      Colors.red,
+                      Colors.green,
+                      Color.fromARGB(179, 203, 232, 72),
                     ],
                   ),
                 ),
@@ -128,8 +128,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      Colors.blue,
-                      Colors.red,
+                      Colors.green,
+                      Color.fromARGB(179, 203, 232, 72),
                     ],
                   ),
                 ),
