@@ -1,5 +1,6 @@
+import 'package:cards/sem.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -60,10 +61,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       size: 50,
                       color: Colors.white,
                     ),
-                    Text(
+                    TextButton(
+                      child:Text(
                       "B.Tech (CS) \n1st Year",
                       style: TextStyle(color: Colors.white, fontSize: 20),
                     ),
+                    onPressed:() async {
+
+                     Navigator.push(context, MaterialPageRoute(builder: (context) => SubjectListScreen(text: "1")));
+                    }
+
+                    )
                   ],
                 ),
               ),
@@ -87,10 +95,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       size: 50,
                       color: Colors.white,
                     ),
-                    Text(
+                     TextButton(
+                      child:Text(
                       "B.Tech (CS) \n2nd Year",
                       style: TextStyle(color: Colors.white, fontSize: 20),
                     ),
+                    onPressed:() async {
+
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => SubjectListScreen(text: "2")));
+                    }
+
+                    )
                   ],
                 ),
               ),
@@ -114,10 +129,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       size: 50,
                       color: Colors.white,
                     ),
-                    Text(
+                     TextButton(
+                      child:Text(
                       "B.Tech (CS) \n3rd Year",
                       style: TextStyle(color: Colors.white, fontSize: 20),
                     ),
+                    onPressed:() async {
+
+                     Navigator.push(context, MaterialPageRoute(builder: (context) => SubjectListScreen(text: "3")));
+                    }
+
+                    )
                   ],
                 ),
               ),
@@ -141,10 +163,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       size: 50,
                       color: Colors.white,
                     ),
-                    Text(
-                      "B.Tech (CS) \n4rth Year",
+                     TextButton(
+                      child:Text(
+                      "B.Tech (CS) \n4th Year",
                       style: TextStyle(color: Colors.white, fontSize: 20),
                     ),
+                    onPressed:() async {
+
+                     Navigator.push(context, MaterialPageRoute(builder: (context) => SubjectListScreen(text: "4")));
+                    }
+
+                    )
                   ],
                 ),
               ),
